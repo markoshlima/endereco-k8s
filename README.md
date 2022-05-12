@@ -11,7 +11,7 @@ go build .
 go run main.go
 
 **Build docker container** <br />
-docker build . -t markoshlima/endereco-k8s
+docker build . -t markoshlima/endereco-k8s<br />
 docker build . -t markoshlima/endereco-k8s --platform linux/amd64 //EKS
 
 **Start docker container** <br />
