@@ -12,6 +12,7 @@ go run main.go
 
 **Build docker container** <br />
 docker build . -t markoshlima/endereco-k8s
+docker build . -t markoshlima/endereco-k8s --platform linux/amd64 //EKS
 
 **Start docker container** <br />
 docker run -it -p 5001:8080 -d markoshlima/endereco-k8s
